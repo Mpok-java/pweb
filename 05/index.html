@@ -1,48 +1,56 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>CSS Inline</title>
+        <title></title>
         <meta charset="utf-8" />
 
-        <style type="text/css">
-            
-            p {
-                color: red;
-                border: 1px solid blue;
-            }
+	<title>Minha primeira página CSS</title>
+	<style type="text/css">
+	body {
+		padding-left: 11em;
+		font-family: Georgia, "Times New Roman",
+		Times, serif;
 
-            h1 {font-size: 80x;}
+		color: purple;
+		background-colo:#d8da3d }
+		ul.navbar {
+		position: absolute;
+		top: 2em;
+		left: 1em;
+		width: 9em; }
 
-            .minha_classe {
-                color: blue;
-                border: 2px solid red;
-            }
+		h1 {
+		font-family: Helvetica, Geneva, Arial,
+			SunSans-Regular, sans-serif }
+	</style>
+</head>
 
-            #MeuID {
-                propriedade: valor;
-            }
+<body>
 
-            #verde {
-                color: green;
-            }
+<!--Menu de navegacao do site -->
+<ul class="navbar">
+	<li><a href="index.html">Home page</a>
+	<li><a href="pensamentos.html">Pensamentos</a>
+	<li><a href="cidade.html">Minha cidade</a>
+	<li><a href="links.html">Links</a>
+</ul>
 
-        </style>
+<!-- Conteudo -->
+<h1>Minha primeira página CSS</h1>
 
-    </head>
+<p>Bem vindos à minha página estilizada!
 
-    <body>
+<p>Minha página não contém imagens, mas pelo
+menos está estilizada.
+Ela contém links, ainda que eles não levem
+a lugar algum...
 
-        <h1 style=".minha_classe">Stilo CSS</h1>
+<p>Deveria haver mais textos aqui porém eu
+ainda não decidi o que escrever.
 
-        <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico.
-        Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC.
-        Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia,
-        pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum.
-        </p>
+<!-- Date e assine a sua página, isto é educado! -->
+<adress>Construida em 15 de dezembro de 2004<br>
+	por mim mesmo.</address>
 
-        <p class=".minha_classe">O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados.
-        Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram reproduzidas
-        abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914
-        </p>
-    </body>
+</body>
 </html>
